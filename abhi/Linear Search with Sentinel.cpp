@@ -41,4 +41,5 @@ int main()
 		cin>>a[i];
 
 	linear_search_with_sentinel(a,n);
+	return 0;
 }
