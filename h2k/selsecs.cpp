@@ -1,3 +1,10 @@
+/*
+24 February 2018
+Selection Sort
+Running time : O(n^2)
+Running space : In space
+*/
+
 #include<iostream>
 using namespace std;
 
