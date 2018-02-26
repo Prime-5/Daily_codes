@@ -1,6 +1,8 @@
 /*
 26 February 2018
 Linear Search with Sentinel
+Running time : O(n) (But with lower constant factor as compared to normal linear search)
+Running space : In space
 */
 
 #include<iostream>
