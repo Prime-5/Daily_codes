@@ -1,3 +1,8 @@
+/*
+26 February 2018
+Linear Search with Sentinel
+*/
+
 #include<iostream>
 using namespace std;
 
