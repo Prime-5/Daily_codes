@@ -1,7 +1,7 @@
 /*
 28 February
 Heap Sort
-Running time : O(n^2)
+Running time : O(nlgn)
 Running space : In space
 */
 
