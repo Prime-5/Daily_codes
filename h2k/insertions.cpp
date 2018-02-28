@@ -1,3 +1,10 @@
+/*
+28 February 2018
+Insertion Sort
+Running Time : O(n^2)
+Running Space : In space
+*/
+
 #include<iostream>
 using namespace std;
 int insertions(int n,int*a)
