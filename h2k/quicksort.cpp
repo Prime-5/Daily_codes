@@ -1,3 +1,10 @@
+/*
+4 March 2018
+Quick Sort
+Running Time (Average) : O(nlgn)
+Running space : In space.
+*/
+
 #include<iostream>
 using namespace std;
 void swap(int &a,int &b)
