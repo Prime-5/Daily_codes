@@ -1,16 +1,16 @@
 Reading and Writing Data
 
 char ch;  
-ch=f.get()				//Read a character from file  
-f.put(ch)				  //Write a character in file
+ch=f.get()				    //Read a character from file  
+f.put(ch)				    //Write a character in file
 
 char word[10];
 f>>word;				  //Read a word from the file.
 f<<word;				  //Write a word in the file.
 
 char line[100];
-f.getline(line,100);			                      //Read a string from file. (Reads till it meets the delimiter)
-f.putline(line);			                          //Write a string in the file.
+f.getline(line,100);			                //Read a string from file. (Reads till it meets the delimiter)
+f.putline(line);			                    //Write a string in the file.
 f<<"Type a string here to put in file";         //Write a string in a file.
 
 f.read() 				  //Read data from a binary file
