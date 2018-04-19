@@ -8,11 +8,12 @@
           
 5. s.push_back('*') -----> Adds '*' at the end of a string
 6. s.pop_back() ---------> Deleates the last character from the string.
-7. s.erase(5,2) ---------> Erases 2 characters from the string, starting from the 5th index. (INDEX and not POSITION)
+7. s.size() -------------> Returns the size of string s.
+8. s.erase(5,2) ---------> Erases 2 characters from the string, starting from the 5th index. (INDEX and not POSITION)
             Eg :  string s = "This is a sentence";
                   s.erase(5,5);           //Now s is "This sentence" 
                   
-8. You can equate strings here!
+9. You can equate strings here!
 string a="Hey ya"
 string b=a;         //Now b is "Hey ya"
 b.push_back('!');
