@@ -1,0 +1,22 @@
+1. s.begin() ---> Pointer to beginning of the string.
+2. s.end() -----> Pointer to end of the string.
+3. std::string::iterator it;      //To parse the string, you need to create an iterator. The iterator is a pointer. (Remember that, always).
+                                  //Now "it" is a string iterator
+                                  
+4. for(it=s.begin() ; it!=s.end() ; it++)       //Parsing the string and accessing its elements
+          cout<<*it;
+          
+5. s.push_back('*') -----> Adds '*' at the end of a string
+6. s.pop_back() ---------> Deleates the last character from the string.
+7. s.erase(5,2) ---------> Erases 2 characters from the string, starting from the 5th index. (INDEX and not POSITION)
+            Eg :  string s = "This is a sentence";
+                  s.erase(5,5);           //Now s is "This sentence" 
+                  
+8. You can equate strings here!
+string a="Hey ya"
+string b=a;         //Now b is "Hey ya"
+b.push_back('!');
+a=b;                //This is f***ing legal !!!
+                    //Now a is "Hey ya!"
+                    
+                  
