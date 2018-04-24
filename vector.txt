@@ -1,0 +1,37 @@
+Using dynamic array in C++ // vectors
+push_back ( ) // can be used for taking input.
+
+int main(){   
+
+vector <int> g1; // declaring the array;
+vector <int> :: iterator i;  // declaring the iterator
+vector <int> :: reverse_iterator ir;   // declaring the reverse iterator
+
+1. begin() – Returns an iterator pointing to the first element in the vector
+
+2. end() – Returns an iterator pointing to the theoretical element that follows last element in the vector
+
+3. rbegin() – Returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
+
+4. rend() – Returns a reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
+
+for (int i = 1; i <= 5; i++)    
+g1.push_back(i);    // pushing the input inside the array
+
+cout << "Output of begin and end\t:\t"; 
+for (i = g1.begin(); i != g1.end(); ++i) 
+cout << *i << '\t';  
+
+OUTPUT- 1 2 3 4 5
+
+cout << "Output of rbegin and rend\t:\t"; 
+for (ir = g1.rbegin(); ir != g1.rend(); ++ir)        
+cout << '\t' << *ir;  
+
+output 5 4 3 2 1
+return 0;
+}
+--
+
+
+
